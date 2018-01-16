@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int nrf , nrb , s ;
+    cout << "Numar fete ";
+    cin >> nrf ;
+    nrb = nrf + 10;
+    s = nrf + nrb ;
+    cout << "Numar baieti " << nrb << endl;
+    cout << "Numar copii " << s ;
+
+    return 0;
+}
