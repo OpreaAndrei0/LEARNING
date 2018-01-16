@@ -24,7 +24,7 @@ int main()
     rez  = a/b;
   }
   else {
-    cout << "eroare opreratie";
+    cout << "eroare ";
     return 1;
   }
 cout << a << op << b << "=" << rez;
